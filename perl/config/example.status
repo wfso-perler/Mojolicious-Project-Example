@@ -1,0 +1,15 @@
+{
+  default=>0,
+  0=>{
+    status=>"OK",
+    msg=>"SUCCESS"
+  },
+  50100=>{
+    status=>"ERROR",
+    msg=>"缺少参数"
+  },
+  50200=>{
+    status=>"ERROR",
+    msg=>"指纹校验失败"
+  }
+}
